@@ -108,6 +108,6 @@ DELCARE_HANDLER(https) {
 }
 
 
-void ml_http_init(void) {
+void ml_https_init(void) {
   REGISTER_HANDLER(https);
 }
